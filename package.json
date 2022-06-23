@@ -1,0 +1,33 @@
+{
+  "name": "github-trello-comment",
+  "version": "1.0.0",
+  "description": "GitHub Action to add a comment on a Trello card",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build src/index.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Notso-dark/github-trello-comment.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Trello",
+    "Actions",
+    "Comment"
+  ],
+  "author": "Not So Dark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Notso-dark/github-trello-comment/issues"
+  },
+  "homepage": "https://github.com/Notso-dark/github-trello-comment#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.0",
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}

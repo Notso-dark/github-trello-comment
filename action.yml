@@ -1,0 +1,26 @@
+author: Not So Dark
+name: github-trello-comment
+description: GitHub Action to add a comment on a Trello card
+branding:
+  icon: 'check-square'  
+  color: 'gray-dark'
+inputs:
+  trello-api-key:
+    description: Trello API key, visit https://trello.com/app-key for key
+    required: true
+  trello-auth-token:
+    description: Trello auth token, visit https://trello.com/app-key then click generate a token
+    required: true
+  trello-board-id:
+    description: Trello board ID, visit a board then append .json to url to find id
+    required: true
+  trello-card-id:
+    description: Trello card id
+    required: true 
+  trello-message:
+    description: message
+    required: true
+
+runs:
+  using: node12
+  main: dist/index.js
