@@ -1,5 +1,5 @@
 # github-trello-comment
-Github Action used to write a comment in a Trello card
+GitHub Action used to write a comment in a Trello card
 
 This action has been inspired from [dalezak/github-commit-to-trello-card](https://github.com/marketplace/actions/github-commit-to-trello-card)
 
